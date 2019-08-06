@@ -55,6 +55,8 @@ fun main() {
 // The parameter Int has a default value of 1. The function has one parameter of type Int and return a value of type Int.
 // The function double returns whatever is returned by the lambda calculation multiplied by 2
 
+//while defining lambda as argument , one has to tell (lambdaARG)-> returnType i.e what is argument to lambda and what is
+//return type.
 fun doubleNumber(num: Int = 1, calculate:(Int)-> Int):Int {
 
     return calculate(num) * 2
