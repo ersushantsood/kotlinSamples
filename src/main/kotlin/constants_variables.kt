@@ -7,6 +7,13 @@ fun main() {
     var number = 20
     print("\nI am variable number and i store :"+number)
 
+    //Normally, properties declared as having a non-null type must be initialized in the constructor.
+    // However, fairly often this is not convenient. For example, properties can be initialized through
+    // dependency injection, or in the setup method of a unit test. In this case, you cannot supply a non-null
+    // initializer in the constructor,
+    lateinit var testLateInit: String
+
+
     //statically typed variable
     var number_staticTyped: Int = 24
     print("\nI am variable number and i store :"+number_staticTyped)
