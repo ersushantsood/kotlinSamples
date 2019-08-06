@@ -24,7 +24,7 @@ fun main(){
 
 
 fun add(list: MutableList<Number>) {
- //   list.add(3.2)
+ //  list.add(3.2)
 }
 
 //We cannot safely add elements to a list which has a type argument of a subtype because we do not know the actual type of the elements of the list.
